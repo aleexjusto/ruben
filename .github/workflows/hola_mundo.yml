@@ -12,6 +12,6 @@ jobs:
     steps:
       -uses: actions/checkout@v4
       -name:  Run a one-line script
-        run: echo Hello, world!
+       run: echo Hello, world!
       -name: run a ls
-       run: ls -al $github_worskspace
+       run: ls -al $GITHUB_WORKSPACE
